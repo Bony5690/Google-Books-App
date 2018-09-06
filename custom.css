@@ -1,4 +1,28 @@
-div.center{
-  margin-left: 400px;
-  margin-top: 40px;
+.center-align{
+  margin-top: 20px;
+  text-align: center;
 }
+
+.center{
+  margin-top: 10px;
+  text-align: center;
+}
+/* button {
+position: relative;
+left: 50px;
+background-color: red;
+} */
+
+
+.aligning{
+  margin-left: 580px;
+  margin-top: 20px;
+}
+
+/* #imagebutton{
+  position: relative;
+  left: -10px;
+  top: -8px;
+  margin-bottom: 15px;
+
+} */

@@ -10,9 +10,22 @@
     crossorigin="anonymous">
   </head>
   <body>
-<h1>Book Finder</h1>
-<input id="search" type="text" name="" placeholder="Title of author" value="">
-<button id="button" type="button" >Click Me</button>
+<h1 class="text-center">Book Finder</h1>
+
+<div class="text-center">
+  <form  action="index.html" method="post">
+      <label for="search">Search Books</label>
+         <div class="">
+          <input class="text-center" id="search" type="search" >
+          </div>
+          <div class="top-down">
+            <button id="button" class="btn-danger center" type="button" >Search Books</button>
+          </div>
+
+
+  </form>
+</div>
+
 <div id="results"></div>
 
 
