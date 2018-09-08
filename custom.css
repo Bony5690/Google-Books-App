@@ -7,22 +7,12 @@
   margin-top: 10px;
   text-align: center;
 }
-/* button {
-position: relative;
-left: 50px;
-background-color: red;
-} */
 
+.move-down {
+  margin-top: 60px;
+}
 
 .aligning{
   margin-left: 580px;
   margin-top: 20px;
 }
-
-/* #imagebutton{
-  position: relative;
-  left: -10px;
-  top: -8px;
-  margin-bottom: 15px;
-
-} */
