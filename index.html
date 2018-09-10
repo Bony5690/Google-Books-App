@@ -9,10 +9,10 @@
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
   </head>
-
-
-  <body style="background-color: #DCDCDC;">
-<h1 class="text-center move-down">Google Book Finder</h1>
+<!-- id="LoginForm" -->
+<!-- style="background-color: #DCDCDC;" -->
+  <body id="LoginForm">
+<!-- <h1 class="text-center move-down"> Book Search</h1>
 <div class="text-center">
   <form  action="index.html" method="post">
       <label for="search">Search Books</label>
@@ -20,9 +20,32 @@
           <input class="text-center" id="search" placeholder="enter book title" type="search" >
           </div>
           <div class="top-down">
-            <button id="button" class="btn-danger center" type="button" >Search Books</button>
+            <button id="button" class=" btn btn-danger center" type="button" >Search Books</button>
           </div>
   </form>
+</div> -->
+
+
+
+<div class="container">
+<h1 class="form-heading text-center">Google Book Search</h1>
+<div class="login-form">
+<div class="main-div">
+    <div class="panel">
+   <h2>Search for your book</h2>
+   </div>
+    <form id="Login" action="index.html" method="post">
+        <div class="form-group">
+          <input type="search" class="form-control text-center" id="search" placeholder="search for book">
+        </div>
+      <button type="button" id="button" class="btn btn-primary">
+        Search For Book
+      </button>
+
+    </form>
+    </div>
+</div>
+</div>
 </div>
 <div id="results"></div>
 

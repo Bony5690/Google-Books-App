@@ -17,12 +17,15 @@ $.ajax({
   dataType: "json",
 
   success: function(data){
+    //Check to see if any books exist within Google bookSearch
     if( !data.items){
       message = $('<h4  class = "center-align"> Sorry no books found </h4>');
      message.appendTo("#results");
      console.log(data);
 
     } else {
+
+      //iterate through every book of search keyword and render onto page
       for(var i = 0; i < data.items.length; i++)
       {
 
